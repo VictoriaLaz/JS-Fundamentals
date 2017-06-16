@@ -8,6 +8,14 @@ function filter(input) {
         line = line.split(' ').map(Number);
         matrix.push(line);
     }
+    console.log(matrix);
+    let previous
+    for(let row = 0; row<matrix.length; row++){
+        for(let col = 0; col<matrix[row].length; row++){
+
+        }
+    }
+
 }
 filter([
     '3 3 3 2 5 9 9 9 9 1 2',
