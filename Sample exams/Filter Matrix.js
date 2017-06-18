@@ -9,7 +9,7 @@ function filter(input) {
         matrix.push(line);
     }
     console.log(matrix);
-    let previous
+    let coordinatesToEmpty = [];
     for(let row = 0; row<matrix.length; row++){
         for(let col = 0; col<matrix[row].length; row++){
 
